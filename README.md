@@ -1,0 +1,1 @@
+Here are proto contracts for gophkeeper server
