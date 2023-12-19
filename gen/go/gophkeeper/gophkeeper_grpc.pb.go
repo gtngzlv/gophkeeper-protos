@@ -4,7 +4,7 @@
 // - protoc             v3.21.11
 // source: gophkeeper/gophkeeper.proto
 
-package ssov1
+package pb
 
 import (
 	context "context"

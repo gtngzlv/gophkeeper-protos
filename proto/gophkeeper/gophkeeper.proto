@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package gophkeeper;
 
-option go_package = "tuzov.sso.v1;ssov1";
+option go_package = "proto.gophkeeper;pb";
 
 service Auth {
   rpc Register (RegisterRequest) returns (RegisterResponse);
