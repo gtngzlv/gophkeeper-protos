@@ -7,7 +7,6 @@ option go_package = "proto.gophkeeper;pb";
 service Auth {
   rpc Register (RegisterRequest) returns (RegisterResponse);
   rpc Login (LoginRequest) returns (LoginResponse);
-  rpc Logout (LogoutRequest) returns (LogoutResponse);
 }
 
 service Keeper {
@@ -37,11 +36,3 @@ message SaveDataRequest {
 }
 
 message SaveDataResponse {}
-
-message LogoutRequest {
-  string token = 1;
-}
-
-message LogoutResponse {
-  bool success = 1;
-}
